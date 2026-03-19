@@ -142,13 +142,13 @@ while (attempts < 3) {
 
     switch (input) {
         case password:
-            document.getElementById("num7").innerHTML = "Login Successful!";
+            document.getElementById("num8").innerHTML = "Login Successful!";
             attempts = 3; // exit loop
             break;
         default:
             attempts++;
             if (attempts === 3) {
-                document.getElementById("num7").innerHTML = "Account Locked!";
+                document.getElementById("num8").innerHTML = "Account Locked!";
             }
             break;
     }
